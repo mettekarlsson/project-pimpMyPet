@@ -148,3 +148,4 @@ The database uses primary keys, indexes and foreign-key constraints to define re
 
 ## My contribution
 
+This project was developed collaboratively as part of a group project at Teknikhögskolan in Lund. We worked together throughout the development process, contributing to the planning, implementation and development of the application as a team.
