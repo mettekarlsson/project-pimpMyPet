@@ -19,7 +19,6 @@
 -- Table structure for table `categories`
 --
 
-DROP TABLE IF EXISTS `categories`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `categories` (
@@ -33,7 +32,6 @@ CREATE TABLE `categories` (
 -- Table structure for table `categories_products`
 --
 
-DROP TABLE IF EXISTS `categories_products`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `categories_products` (
@@ -51,7 +49,6 @@ CREATE TABLE `categories_products` (
 -- Table structure for table `categories_services`
 --
 
-DROP TABLE IF EXISTS `categories_services`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `categories_services` (
@@ -69,7 +66,6 @@ CREATE TABLE `categories_services` (
 -- Table structure for table `customers`
 --
 
-DROP TABLE IF EXISTS `customers`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `customers` (
@@ -91,7 +87,6 @@ CREATE TABLE `customers` (
 -- Table structure for table `orders`
 --
 
-DROP TABLE IF EXISTS `orders`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `orders` (
@@ -108,7 +103,6 @@ CREATE TABLE `orders` (
 -- Table structure for table `orders_products`
 --
 
-DROP TABLE IF EXISTS `orders_products`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `orders_products` (
@@ -127,7 +121,6 @@ CREATE TABLE `orders_products` (
 -- Table structure for table `products`
 --
 
-DROP TABLE IF EXISTS `products`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `products` (
@@ -144,7 +137,6 @@ CREATE TABLE `products` (
 -- Table structure for table `services`
 --
 
-DROP TABLE IF EXISTS `services`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `services` (
@@ -159,7 +151,6 @@ CREATE TABLE `services` (
 -- Table structure for table `services_details`
 --
 
-DROP TABLE IF EXISTS `services_details`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `services_details` (
@@ -178,7 +169,6 @@ CREATE TABLE `services_details` (
 -- Table structure for table `services_orders`
 --
 
-DROP TABLE IF EXISTS `services_orders`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `services_orders` (
